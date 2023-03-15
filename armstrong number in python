@@ -1,0 +1,12 @@
+//armstrong number
+n = input("n: ")
+s = len(n)
+sum = 0
+for i in n:
+    c = int(i)**s
+    sum = sum + c
+print("sum of powers:",sum)
+if (sum == int(n)):
+    print(n,"is a armstrong number")
+else:
+    print(n,"is not a armstrong number")
